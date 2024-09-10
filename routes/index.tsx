@@ -43,8 +43,9 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              '"Hello, World!"',
-              "I'm an AI developer.",
+              "Hi, I'm an AI developer.",
+              "I build AI models.",
+              "Contact me.",
             ]}
             autoStart={true}
           />
