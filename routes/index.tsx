@@ -39,13 +39,13 @@ function Hero() {
           <TypingAnimation
             strings={[
               '"Hello, World!"',
-              "I'm a developer.",
+              "I'm an AI developer.",
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build web applications and websites using modern technologies.
+          I build AI models and algorithms using methods like Machine Learning, Computer Vision and Natural Language Processing.
         </p>
       </div>
       <SpinningModel />
@@ -62,21 +62,21 @@ interface Value {
 function Values() {
   const values: Value[] = [
     {
-      title: "Passion for Continuous Learning",
+      title: "Attention to Detail",
       description:
-        "I actively seek out new technologies and stay up-to-date with industry trends.",
+        "I constantly focus on building robust models in order to achieve excellent preformance.",
       image: "/img/pexels-pixabay-159711.webp",
     },
     {
-      title: "User-Centric Approach",
+      title: "Quick Learning",
       description:
-        "My goal is to create user-friendly applications that solve real-world problems.",
+        "As a self taught programmer I tend to learn quickly and adjust to new problems without any issues.",
       image: "/img/pexels-picjumbo-com-55570-196644.webp",
     },
     {
-      title: "Collaboration and Communication",
+      title: "Progressive Workflow",
       description:
-        "I excel in team environments and communicate effectively with stakeholders.",
+        "I always prefer to explain my workflow and thoughts on the project before tackling it.",
       image: "/img/pexels-fauxels-3184418.webp",
     },
   ];
@@ -119,16 +119,10 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
-      location: "Vienna, Austria",
-    },
-    {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
-      location: "Vienna, Austria",
+      title: "Intern",
+      company: "AI Centre Lipik",
+      timePeriod: "March 2024 - Sep 2024",
+      location: "Lipik, Croatia",
     },
   ];
 
@@ -194,20 +188,12 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Denoland Fresh",
+      title: "Analisys of Ultrasonic Results",
       description:
-        "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
-      link: "https://fresh.deno.dev/",
-      type: "Open Source",
-      icon: "logos:deno",
-    },
-    {
-      title: "Dogr.",
-      description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
-      link: "https://dogr.vercel.app/",
-      type: "Personal",
-      icon: "logos:vue",
+        "NDA",
+      link: "NDA",
+      type: "Professional",
+      icon: "logos:python",
     },
   ];
 
@@ -268,6 +254,11 @@ function Technologies() {
     "logos:mariadb-icon",
     "skill-icons:cassandra-light",
     "skill-icons:docker",
+    "logos:python",
+    "logos:pytorch",
+    "logos:tensorflow",
+    "logos:opencv",
+    "logos:nlp",
   ];
 
   return (
