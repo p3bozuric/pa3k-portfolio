@@ -29,6 +29,11 @@ loadIcons([
   "logos:mariadb-icon",
   "skill-icons:cassandra-light",
   "skill-icons:docker",
+  "logos:python",
+  "logos:pytorch",
+  "logos:tensorflow",
+  "logos:opencv",
+  "simple-icons:spacy"
 ]);
 
 function Hero() {
@@ -258,7 +263,7 @@ function Technologies() {
     "logos:pytorch",
     "logos:tensorflow",
     "logos:opencv",
-    "logos:nlp",
+    "simple-icons:spacy",
   ];
 
   return (
