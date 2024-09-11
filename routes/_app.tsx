@@ -9,7 +9,7 @@ function MetaTags(
     <>
       {/* Primary Meta Tags */}
       <title>
-        {credentials.name} - AI Developer | Machine Learning, Computer Vision, NLP
+        {credentials.name}{" "} - AI Developer | Machine Learning, Computer Vision, NLP
       </title>
       <meta
         name="title"
