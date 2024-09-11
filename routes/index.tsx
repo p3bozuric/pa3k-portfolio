@@ -34,7 +34,7 @@ function Hero() {
           />
         </h1>
         <p class="text-xl mt-4">
-          I work on creating AI systems that can see, understand language, and learn from data. It's a mix of coding smart algorithms and using cutting-edge tech like machine learning.
+          I create AI systems that can see, understand language, and learn from data.
         </p>
       </div>
       <SpinningModel />
@@ -178,8 +178,7 @@ function Projects() {
   const projects: Project[] = [
     {
       title: "Analisys of Ultrasonic Results",
-      description:
-        "NDA",
+      description: "NDA",
       link: "NDA",
       type: "Professional",
       icon: "logos:python",
