@@ -17,7 +17,7 @@ function MetaTags(
       />
       <meta
         name="description"
-        content={`Explore ${credentials.name}'s portfolio showcasing innovative AI projects. Specializing in machine learning, computer vision, and NLP using Python. Discover how I can bring your AI vision to life.`}
+        content={"Explore ${credentials.name}'s portfolio showcasing innovative AI projects. Specializing in machine learning, computer vision, and NLP using Python. Discover how I can bring your AI vision to life."}
       />
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
@@ -81,7 +81,7 @@ export default function App({ Component }: PageProps) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <MetaTags credentials={credentials} url={url} />
-        <title>Developer Portfolio | {credentials.name}</title>
+        <title>{credentials.name} | AI Dev</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body class="min-h-screen flex flex-col max-w-screen-xl mx-auto">
