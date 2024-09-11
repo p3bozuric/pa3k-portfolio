@@ -2,6 +2,9 @@ import SpinningModel from "../islands/SpinningModel.tsx";
 import TypingAnimation from "../islands/TypingAnimation.tsx";
 import { Icon, loadIcons } from "@iconify-icon/react";
 import Wave from "../components/Wave.tsx";
+import detailImage from '../images/detail.png';
+import learningImage from '../images/learning.png';
+import workflowImage from '../images/workflow.png';
 
 // preload icons
 loadIcons([
@@ -54,19 +57,19 @@ function Values() {
       title: "Attention to Detail",
       description:
         "I constantly focus on building robust models in order to achieve excellent preformance.",
-      image: "../images/detail.png",
+      image: detailImage,
     },
     {
       title: "Quick Learning",
       description:
         "As a self taught programmer I tend to learn quickly and adjust to new problems without any issues.",
-      image: "../images/learning.png",
+      image: learningImage,
     },
     {
       title: "Progressive Workflow",
       description:
         "I always prefer to explain my workflow and thoughts on the project before tackling it.",
-      image: "../images/workflow.png",
+      image: workflowImage,
     },
   ];
 
