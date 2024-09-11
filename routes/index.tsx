@@ -16,7 +16,7 @@ loadIcons([
   "devicon:pytorch",
   "logos:tensorflow",
   "logos:opencv",
-  "simple-icons:spacy"
+  "simple-icons:spacy",
 ]);
 
 function Hero() {
@@ -54,19 +54,19 @@ function Values() {
       title: "Attention to Detail",
       description:
         "I constantly focus on building robust models in order to achieve excellent preformance.",
-      image: "/images/detail.png",
+      image: "../images/detail.png",
     },
     {
       title: "Quick Learning",
       description:
         "As a self taught programmer I tend to learn quickly and adjust to new problems without any issues.",
-      image: "/images/learning.png",
+      image: "../images/learning.png",
     },
     {
       title: "Progressive Workflow",
       description:
         "I always prefer to explain my workflow and thoughts on the project before tackling it.",
-      image: "/images/workflow.png",
+      image: "../images/workflow.png",
     },
   ];
 
