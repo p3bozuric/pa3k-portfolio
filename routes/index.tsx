@@ -8,29 +8,12 @@ loadIcons([
   "majesticons:suitcase",
   "tabler:calendar-filled",
   "carbon:location-filled",
-  "logos:deno",
-  "logos:vue",
-  "vscode-icons:file-type-js-official",
-  "vscode-icons:file-type-js-official",
   "logos:html-5",
   "logos:css-3",
-  "logos:php",
-  "logos:typescript-icon",
-  "skill-icons:react-dark",
-  "devicon:nextjs",
-  "skill-icons:nuxtjs-dark",
-  "logos:nestjs",
-  "logos:fresh",
-  "skill-icons:laravel-dark",
-  "skill-icons:tailwindcss-dark",
-  "devicon:nodejs",
-  "vscode-icons:file-type-mongo",
   "logos:postgresql",
-  "logos:mariadb-icon",
-  "skill-icons:cassandra-light",
   "skill-icons:docker",
   "logos:python",
-  "logos:pytorch",
+  "devicon:pytorch",
   "logos:tensorflow",
   "logos:opencv",
   "simple-icons:spacy"
@@ -43,15 +26,15 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              "Hi, I'm an AI developer.",
-              "I build AI models.",
+              "Hi, I'm Patrik",
+              "I'm an AI dev.",
               "Contact me.",
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build AI models and algorithms using methods like Machine Learning, Computer Vision and Natural Language Processing.
+          I work on creating AI systems that can see, understand language, and learn from data. It's a mix of coding smart algorithms and using cutting-edge tech like machine learning.
         </p>
       </div>
       <SpinningModel />
@@ -71,19 +54,19 @@ function Values() {
       title: "Attention to Detail",
       description:
         "I constantly focus on building robust models in order to achieve excellent preformance.",
-      image: "/img/pexels-pixabay-159711.webp",
+      image: "/images/detail.png",
     },
     {
       title: "Quick Learning",
       description:
         "As a self taught programmer I tend to learn quickly and adjust to new problems without any issues.",
-      image: "/img/pexels-picjumbo-com-55570-196644.webp",
+      image: "/images/learning.png",
     },
     {
       title: "Progressive Workflow",
       description:
         "I always prefer to explain my workflow and thoughts on the project before tackling it.",
-      image: "/img/pexels-fauxels-3184418.webp",
+      image: "/images/workflow.png",
     },
   ];
 
@@ -240,31 +223,15 @@ function Projects() {
 
 function Technologies() {
   const technologies = [
-    "vscode-icons:file-type-js-official",
     "logos:html-5",
     "logos:css-3",
-    "logos:php",
-    "logos:typescript-icon",
-    "skill-icons:react-dark",
-    "logos:vue",
-    "devicon:nextjs",
-    "skill-icons:nuxtjs-dark",
-    "logos:nestjs",
-    "logos:fresh",
-    "skill-icons:laravel-dark",
-    "skill-icons:tailwindcss-dark",
-    "logos:deno",
-    "devicon:nodejs",
-    "vscode-icons:file-type-mongo",
-    "logos:postgresql",
-    "logos:mariadb-icon",
-    "skill-icons:cassandra-light",
-    "skill-icons:docker",
     "logos:python",
-    "logos:pytorch",
+    "devicon:pytorch",
     "logos:tensorflow",
     "logos:opencv",
     "simple-icons:spacy",
+    "logos:postgresql",
+    "skill-icons:docker",
   ];
 
   return (
