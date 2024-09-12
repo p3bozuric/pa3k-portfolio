@@ -58,6 +58,12 @@ function MetaTags(
 export default function App({ Component }: PageProps) {
   const socials = [
     {
+      name: "e-mail",
+      url: "mailto: pbozuric@outlook.com",
+      icon: "ic:baseline-email",
+    },
+    
+    {
       name: "GitHub",
       url: "https://github.com/p3bozuric",
       icon: "fa-brands:github",
@@ -68,6 +74,7 @@ export default function App({ Component }: PageProps) {
       url: "https://www.linkedin.com/in/pbozuric/",
       icon: "fa-brands:linkedin",
     },
+    
   ];
 
   const credentials = {
