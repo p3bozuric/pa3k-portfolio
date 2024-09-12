@@ -184,8 +184,8 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Analisys of Ultrasonic Results",
-      description: "NDA - Non-disclosure agreement (View project not available)",
+      title: "Analysis of Ultrasonic Results",
+      description: "Usage of Computer Vision (OpenCV). NDA - View project isn't available",
       link: "NDA",
       type: "Professional",
       icon: "logos:python",
