@@ -27,8 +27,7 @@ function Hero() {
           <TypingAnimation
             strings={[
               "Hi, I'm Patrik",
-              "I'm an AI dev.",
-              "Contact me.",
+              "I'm an AI dev",
             ]}
             autoStart={true}
           />
