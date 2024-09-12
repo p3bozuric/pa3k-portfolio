@@ -109,7 +109,13 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Intern",
+      title: "Internship",
+      company: "AI Power d.o.o.",
+      timePeriod: "Jun 2024 - Sep 2024",
+      location: "Lipik, Croatia",
+    },
+    {
+      title: "Internship & Studying",
       company: "AI Centre Lipik",
       timePeriod: "March 2024 - Sep 2024",
       location: "Lipik, Croatia",
@@ -179,7 +185,7 @@ function Projects() {
   const projects: Project[] = [
     {
       title: "Analisys of Ultrasonic Results",
-      description: "NDA",
+      description: "NDA - Non-disclosure agreement (View project not available)",
       link: "NDA",
       type: "Professional",
       icon: "logos:python",
