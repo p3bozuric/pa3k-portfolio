@@ -185,9 +185,16 @@ function Projects() {
   const projects: Project[] = [
     {
       title: "Analysis of Ultrasonic Results",
-      description: "Usage of Computer Vision (OpenCV). NDA - View project isn't available",
+      description: "Usage of Computer Vision for quality assurance. NDA - View project isn't available",
       link: "NDA",
       type: "Professional",
+      icon: "logos:python",
+    },
+    {
+      title: "Customer Churn Prediction Model",
+      description: "This project contains EDA, data visualisation & ML model (Logistic Regression, SVM, SVM with GridSearch).",
+      link: "https://github.com/p3bozuric/Churn-Prediction-Model",
+      type: "Personal",
       icon: "logos:python",
     },
   ];
