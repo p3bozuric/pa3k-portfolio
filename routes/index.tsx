@@ -185,7 +185,7 @@ function Projects() {
     {
       title: "Analysis of Ultrasonic Results",
       description: "Usage of Computer Vision for quality assurance. NDA - View project isn't available",
-      link: "NDA",
+      link: "https://bozuric.com/",
       type: "Professional",
       icon: "logos:python",
     },
