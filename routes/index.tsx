@@ -196,6 +196,13 @@ function Projects() {
       type: "Personal",
       icon: "logos:python",
     },
+        {
+      title: "No Code Headshot Generator",
+      description: "This project allows people to fine tune and use image generative fine tuned FLUX.1-dev for generation of professional headshots",
+      link: "https://github.com/p3bozuric/headshot_generator/",
+      type: "Public",
+      icon: "logos:python",
+    },
   ];
 
   return (
