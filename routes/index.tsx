@@ -183,10 +183,10 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Analysis of Ultrasonic Results",
-      description: "Usage of Computer Vision for quality assurance. NDA - View project isn't available",
-      link: "https://bozuric.com/",
-      type: "Professional",
+      title: "eCOLREG Assistant",
+      description: "RAG app for maritime industry. Usage of Langchain, AWS, Docker and Python.",
+      link: "http://52.28.158.243/",
+      type: "Public",
       icon: "logos:python",
     },
     {
