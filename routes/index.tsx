@@ -108,6 +108,12 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
+      title: "Junior AI Developer",
+      company: "ASEE",
+      timePeriod: "March 2025 - Present",
+      location: "Zagreb, Croatia",
+    },
+    {
       title: "Internship",
       company: "AI Power d.o.o.",
       timePeriod: "Jun 2024 - Sep 2024",
