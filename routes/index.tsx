@@ -33,8 +33,7 @@ function Hero() {
           />
         </h1>
         <p class="text-xl mt-4">
-          I create AI systems that can see, understand language, and learn from 
-          data.
+          I create AI systems that can see, understand, and learn from data.
         </p>
       </div>
       <SpinningModel />
@@ -53,7 +52,7 @@ function Values() {
     {
       title: "Attention to Detail",
       description:
-        "I constantly focus on building robust models in order to achieve excellent preformance.",
+        "I  focus on building robust code in order to achieve excellent preformance.",
       image: "/detail.png",
     },
     {
@@ -65,7 +64,7 @@ function Values() {
     {
       title: "Progressive Workflow",
       description:
-        "I always prefer to explain my workflow and thoughts on the project before tackling it.",
+        "I prefer to define a main goal before tackling it. After that it's mostly dynamic development with learning.",
       image: "/workflow.png",
     },
   ];
@@ -111,7 +110,13 @@ function Experience() {
       title: "Junior AI Developer",
       company: "ASEE",
       timePeriod: "March 2025 - Present",
-      location: "Zagreb, Croatia",
+      location: "Remote",
+    },
+    {
+      title: "Founder",
+      company: "KodAI",
+      timePeriod: "Oct 2024 - Present",
+      location: "Remote",
     },
     {
       title: "Internship",
@@ -191,15 +196,15 @@ function Projects() {
     {
       title: "eCOLREG Assistant",
       description: "RAG app for maritime industry. Usage of Langchain, AWS, Docker and Python.",
-      link: "http://52.28.158.243/",
+      link: "https://github.com/p3bozuric/colreg-assistant",
       type: "Public",
       icon: "logos:python",
     },
     {
-      title: "Customer Churn Prediction Model",
-      description: "This project contains EDA, data visualisation & ML model (Logistic Regression, SVM, SVM with GridSearch).",
-      link: "https://github.com/p3bozuric/Churn-Prediction-Model",
-      type: "Personal",
+      title: "AIDRIATIC - Real Estate Monitoring",
+      description: "Insight sender on latest real estates in Croatia with regard to personal preferences - IN DEVELOPMENT (aidriatic.com)",
+      link: "https://github.com/p3bozuric/aidriatic-real-estate-monitor",
+      type: "Public",
       icon: "logos:python",
     },
         {
